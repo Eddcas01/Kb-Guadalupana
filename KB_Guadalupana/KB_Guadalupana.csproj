@@ -216,6 +216,12 @@
     <Content Include="DiseñoCss\estilosav.css" />
     <Content Include="DiseñoCss\EstilosavSub.css" />
     <Content Include="DiseñosGrid\Grids.css" />
+    <Content Include="EXDiseños\EstilosDashboard.css" />
+    <Content Include="EXDiseños\scriptbarra.js" />
+    <Content Include="EXDiseños\scriptdash.js" />
+    <Content Include="EXDiseños\scriptpaginas.js" />
+    <Content Include="EXDiseños\stylebarra.css" />
+    <Content Include="EXDiseños\stylepaginas.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -345,6 +351,8 @@
     <Content Include="Views\Arqueos\ArqueoTesoreria.aspx" />
     <Content Include="Views\Arqueos\ArqueoTesoreria2.aspx" />
     <Content Include="Views\Arqueos\MenuArqueos.aspx" />
+    <Content Include="Views\ControlEX\Ex_Principal.aspx" />
+    <Content Include="Views\ControlEX\Tracking.aspx" />
     <Content Include="Views\Sesion\AsignacionLotes.aspx" />
     <Content Include="Views\Sesion\AsignacionRolArea.aspx" />
     <Content Include="Views\Sesion\Ayudas\AyudaALote.aspx" />
@@ -605,6 +613,20 @@
     </Compile>
     <Compile Include="Views\Arqueos\MenuArqueos.aspx.designer.cs">
       <DependentUpon>MenuArqueos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ControlEX\Ex_Principal.aspx.cs">
+      <DependentUpon>Ex_Principal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ControlEX\Ex_Principal.aspx.designer.cs">
+      <DependentUpon>Ex_Principal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ControlEX\Tracking.aspx.cs">
+      <DependentUpon>Tracking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\ControlEX\Tracking.aspx.designer.cs">
+      <DependentUpon>Tracking.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Sesion\AsignacionLotes.aspx.cs">
       <DependentUpon>AsignacionLotes.aspx</DependentUpon>
